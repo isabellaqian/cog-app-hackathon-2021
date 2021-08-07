@@ -5,9 +5,20 @@ import name from "./name.png";
 import sideBlock from "./sideblock.png";
 import airplane from "./airplane.png";
 import chatBox from "./chatBox.png";
+import settings from "./settings.png";
 
 class NavBar extends Component {
   state = {};
+
+  airplaneClick = () => {
+    window.location.href = "/upload";
+  };
+  downloadClick = () => {
+    window.location.href = "/browse";
+  };
+  chatBoxClick = () => {
+    window.location.href = "/browse/play";
+  };
 
   render() {
     return (
@@ -47,6 +58,7 @@ class NavBar extends Component {
                 top: 291,
                 left: 79,
               }}
+              onClick={this.downloadClick}
             />
             <img
               src={airplane}
@@ -58,7 +70,9 @@ class NavBar extends Component {
                 top: 446,
                 left: 77,
               }}
+              onClick={this.airplaneClick}
             />
+
             <img
               src={chatBox}
               alt="chatBox.png"
@@ -69,6 +83,7 @@ class NavBar extends Component {
                 top: 601,
                 left: 77,
               }}
+              onClick={this.chatBoxClick}
             />
             <img
               src={logOut}
@@ -82,8 +97,8 @@ class NavBar extends Component {
               }}
             />
             <img
-              src={setting}
-              alt="setting.png"
+              src={settings}
+              alt="settings.png"
               style={{
                 width: 50,
                 height: 50,
@@ -98,5 +113,4 @@ class NavBar extends Component {
     );
   }
 }
-
 export default NavBar;

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import searchBar from "./searchBar.png";
 import lorem from "./lorem.png";
 import name from "./name.png";
-import yellowTop from ".yellowTop.png";
+import yellowTop from "./yellowTop.png";
 import bookmark from "./bookmark.png";
 import comment from "./comment.png";
 import like from "./like.png";
@@ -11,6 +11,7 @@ import pastedGraphic from "./pastedGraphic.png";
 class Page3 extends Component {
   state = {};
   render() {
+    console.log("page 3");
     return (
       <div>
         <img

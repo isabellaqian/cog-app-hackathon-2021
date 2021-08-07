@@ -5,6 +5,7 @@ import bigAirplane from "./bigAirplane.png";
 import dottedcurveline from "./dottedcurveline.png";
 import greenhalfcircle from "./greenhalfcircle.png";
 import searchBar from "./searchBar.png";
+import FileUploadButton from "./fileuploadbutton";
 
 class Page2 extends Component {
   state = {};
@@ -61,8 +62,8 @@ class Page2 extends Component {
         <FileUploadButton />
 
         <img
-          src={greenhalfcircle.png}
-          alt="greenhalfcircle.png.png"
+          src={greenhalfcircle}
+          alt="greenhalfcircle.png"
           style={{
             width: "85%",
             height: "100%",

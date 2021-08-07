@@ -13,6 +13,7 @@
     "react-dropzone": "^11.3.4",
     "react-minimal-side-navigation": "^1.9.2",
     "react-pro-sidebar": "^0.6.0",
+    "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
