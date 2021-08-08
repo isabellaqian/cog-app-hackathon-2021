@@ -9,6 +9,12 @@ import like from "./like.png";
 import pastedGraphic from "./pastedGraphic.png";
 import browse from "./browse.png";
 import miniBar from "./miniBar.png";
+import p1 from "./p1.png";
+import p2 from "./p2.png";
+import p3 from "./p3.png";
+import comments from "./commentsBlock.png";
+import thumbnail from "./vidThumbnail.png";
+import heart from "./coloredHeart.png";
 class Page3 extends Component {
   state = {};
   render() {
@@ -27,8 +33,8 @@ class Page3 extends Component {
           }}
         />
         <img
-          src={pastedGraphic}
-          alt="pastedGraphic.png"
+          src={thumbnail}
+          alt="thumbnail.png"
           style={{
             width: "30%",
             height: "70%",
@@ -38,8 +44,8 @@ class Page3 extends Component {
           }}
         />
         <img
-          src={like}
-          alt="like.png"
+          src={heart}
+          alt="heart.png"
           style={{
             width: "4%",
             height: "7%",
@@ -71,8 +77,8 @@ class Page3 extends Component {
           }}
         />
         <img
-          src={name2}
-          alt="name2.png"
+          src={p1}
+          alt="p1.png"
           style={{
             width: "5%",
             height: "9%",
@@ -82,8 +88,8 @@ class Page3 extends Component {
           }}
         />
         <img
-          src={name2}
-          alt="name2.png"
+          src={p2}
+          alt="p2.png"
           style={{
             width: "5%",
             height: "9%",
@@ -93,8 +99,8 @@ class Page3 extends Component {
           }}
         />
         <img
-          src={name2}
-          alt="name2.png"
+          src={p3}
+          alt="p3.png"
           style={{
             width: "5%",
             height: "9%",
@@ -105,17 +111,17 @@ class Page3 extends Component {
         />
 
         <img
-          src={lorem}
+          src={comments}
           alt="lorem.png"
           style={{
-            width: "24%",
-            height: "6%",
+            width: "25%",
+            height: "30%",
             position: "absolute",
             top: "42%",
             left: "68%",
           }}
         />
-        <img
+        {/* <img
           src={lorem}
           alt="lorem.png"
           style={{
@@ -136,7 +142,7 @@ class Page3 extends Component {
             top: "66%",
             left: "68%",
           }}
-        />
+        /> */}
         <img
           src={searchBar}
           alt="searchBar.png"
@@ -166,7 +172,7 @@ class Page3 extends Component {
             width: "0.8%",
             height: "9%",
             position: "absolute",
-            top: "35%",
+            top: "30%",
             left: "0%",
           }}
         />

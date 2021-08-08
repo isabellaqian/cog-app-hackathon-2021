@@ -66,7 +66,7 @@ class Page2 extends Component {
             width: "0.8%",
             height: "9%",
             position: "absolute",
-            top: "50%",
+            top: "45%",
             left: "0%",
           }}
         />

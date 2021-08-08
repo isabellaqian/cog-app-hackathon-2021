@@ -7,6 +7,8 @@ import airplane from "./airplane.png";
 import chatBox from "./chatBox.png";
 import settings from "./settings.png";
 import { useHistory } from "react-router-dom";
+import home from "./home.png";
+import spiderman from "./spiderman.png";
 
 class NavBar extends Component {
   state = {};
@@ -28,6 +30,9 @@ class NavBar extends Component {
   // chatBoxClick = () => {
   //   window.location.href = "/browse/play";
   // };
+  homeClick = () => {
+    window.location.href = "/";
+  };
 
   render() {
     return (
@@ -47,11 +52,11 @@ class NavBar extends Component {
             />
 
             <img
-              src={name}
-              alt="name.png"
+              src={spiderman}
+              alt="spiderman.png"
               style={{
-                width: "7.5%",
-                height: "12%",
+                width: "8%",
+                height: "14%",
                 position: "absolute",
                 top: "8%",
                 left: "3.5%",
@@ -64,7 +69,7 @@ class NavBar extends Component {
                 width: "5%",
                 height: "8%",
                 position: "absolute",
-                top: "35%",
+                top: "30%",
                 left: "5%",
               }}
               onClick={this.downloadClick}
@@ -76,7 +81,7 @@ class NavBar extends Component {
                 width: "5%",
                 height: "8%",
                 position: "absolute",
-                top: "50%",
+                top: "45%",
                 left: "5%",
               }}
               onClick={this.uploadClick}
@@ -89,10 +94,23 @@ class NavBar extends Component {
                 width: "5%",
                 height: "8%",
                 position: "absolute",
-                top: "65%",
+                top: "60%",
                 left: "5%",
               }}
+
               // onClick={this.chatBoxClick}
+            />
+            <img
+              src={home}
+              alt="home.png"
+              style={{
+                width: "5%",
+                height: "8%",
+                position: "absolute",
+                top: "75%",
+                left: "5%",
+              }}
+              onClick={this.homeClick}
             />
             <img
               src={logOut}
